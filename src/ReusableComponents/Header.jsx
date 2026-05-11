@@ -20,7 +20,7 @@ function Header() {
       <div className="logo">
         <span role="img" aria-label="icecream">🍦</span>
         <div className="logo-text">
-          <h3>Scoopsy</h3>
+          <h3>Scoop Nest</h3>
         </div>
       </div>
 

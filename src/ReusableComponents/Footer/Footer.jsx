@@ -9,12 +9,12 @@ function Footer() {
       <div className="footer-container">
 
         <div className="footer-section about">
-          <h3>Scoopsy</h3>
+          <h3>Scoop Nest</h3>
           <p>Your favorite ice cream, delivered with love 🍦</p>
           <div className="contact-info">
             <p><FaMapMarkerAlt className="icon" /> 123 Creamy St, Dessert City, India</p>
             <p><FaPhoneAlt className="icon" /> +91 98765 43210</p>
-            <p><FaEnvelope className="icon" /> support@scoopsy.com</p>
+            <p><FaEnvelope className="icon" /> support@scoopnest.com</p>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 Scoopsy. All rights reserved.</p>
+        <p>© 2025 Scoop Nest. All rights reserved.</p>
       </div>
     </footer>
   );
