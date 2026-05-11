@@ -1,0 +1,307 @@
+{
+  "iceCreams": [
+    {
+      "id": "1",
+      "flavor": "Vanilla",
+      "company": "CoolCreams",
+      "price": 60,
+      "image": "assets/Images/images (4) vanila.jpg"
+    },
+    {
+      "id": "2",
+      "flavor": "Chocolate",
+      "company": "FrostBite",
+      "price": 110,
+      "image": "assets/Images/download (7).jpg"
+    },
+    {
+      "id": "3",
+      "flavor": "Strawberry",
+      "company": "BerryDelight",
+      "price": 45,
+      "image": "assets/Images/download (6).jpg"
+    },
+    {
+      "id": "4",
+      "flavor": "Mango",
+      "company": "FruitBlast",
+      "price": 70,
+      "image": "assets/Images/download (7) mangoo.jpg"
+    },
+    {
+      "id": "5",
+      "flavor": "Belgium Chocolate",
+      "company": "Choco crush",
+      "price": 120,
+      "image": "assets/Images/belgium chooooooo.jpg"
+    },
+    {
+      "id": "6",
+      "flavor": "Avcado",
+      "company": "FruitBlast",
+      "price": 90,
+      "image": "assets/Images/avacadoooooooo.jpeg"
+    },
+    {
+      "id": "7",
+      "flavor": "Blue Berry",
+      "company": "Berry Blast",
+      "price": 70,
+      "image": "assets/Images/blue berry.jpg"
+    },
+    {
+      "id": "8",
+      "flavor": "Butter Scotch",
+      "company": "Creamy Milk",
+      "price": 80,
+      "image": "assets/Images/butter scotch.jpg"
+    },
+    {
+      "id": "9",
+      "flavor": "Black Berry",
+      "company": "Berry Blast",
+      "price": 140,
+      "image": "assets/Images/black berry.jpg"
+    },
+    {
+      "id": "10",
+      "flavor": "Choco-Chip",
+      "company": "FrostBite",
+      "price": 70,
+      "image": "assets/Images/choco chip.jpg"
+    },
+    {
+      "id": "11",
+      "flavor": "Coconut",
+      "company": "FruitBlast",
+      "price": 100,
+      "image": "assets/Images/coconut.jpg"
+    },
+    {
+      "id": "12",
+      "flavor": "Black Current",
+      "company": "FruitBlast",
+      "price": 60,
+      "image": "assets/Images/download (2).jpg"
+    },
+    {
+      "id": "13",
+      "flavor": "Coffe",
+      "company": "CoolCreams",
+      "price": 80,
+      "image": "assets/Images/coffe.jpg"
+    },
+    {
+      "id": "14",
+      "flavor": "Grape",
+      "company": "FruitBlast",
+      "price": 70,
+      "image": "assets/Images/grape.jpg"
+    },
+    {
+      "id": "15",
+      "flavor": "Hazelnut",
+      "company": "CoolCreams",
+      "price": 70,
+      "image": "assets/Images/hazelnut.jpg"
+    },
+    {
+      "id": "16",
+      "flavor": "Jack Fruit",
+      "company": "FruitBlast",
+      "price": 50,
+      "image": "assets/Images/jack fruit.jpg"
+    },
+    {
+      "id": "17",
+      "flavor": "Mint",
+      "company": "FruitBlast",
+      "price": 70,
+      "image": "assets/Images/mint.jpg"
+    },
+    {
+      "id": "18",
+      "flavor": "Orange",
+      "company": "FruitBlast",
+      "price": 80,
+      "image": "assets/Images/orange.jpg"
+    },
+    {
+      "id": "19",
+      "flavor": "Red Welvet",
+      "company": "CoolCreams",
+      "price": 130,
+      "image": "assets/Images/red velvet.jpg"
+    },
+    {
+      "id": "20",
+      "flavor": "Passion Fruit",
+      "company": "FruitBlast",
+      "price": 70,
+      "image": "assets/Images/passion-fruit-.webp"
+    },
+    {
+      "id": "21",
+      "flavor": "Pista",
+      "company": "FrostBite",
+      "price": 50,
+      "image": "assets/Images/pista.jpg"
+    },
+    {
+      "id": "22",
+      "flavor": "Peach",
+      "company": "FruitBlast",
+      "price": 90,
+      "image": "assets/Images/peach.jpg"
+    },
+    {
+      "id": "23",
+      "flavor": "WaterMelon",
+      "company": "FruitBlast",
+      "price": 70,
+      "image": "assets/Images/download (8)watereeeee.jpg"
+    },
+    {
+      "id": "24",
+      "flavor": "Fig",
+      "company": "Berry Blast",
+      "price": 130,
+      "image": "assets/Images/download (8)fig.jpg"
+    },
+    {
+      "id": "25",
+      "flavor": "Matcha",
+      "company": "CoolCreams",
+      "price": 100,
+      "image": "assets/Images/download (8)matchaaaa.jpg"
+    },
+    {
+      "id": "26",
+      "flavor": "Saffron",
+      "company": "CoolCreams",
+      "price": 150,
+      "image": "assets/Images/download (8) saffrone.jpg"
+    },
+    {
+      "id": "27",
+      "flavor": "Rainbow",
+      "company": "BerryDelight",
+      "price": 120,
+      "image": "assets/Images/download (8)raaaaaaaa.jpg"
+    },
+    {
+      "id": "28",
+      "flavor": "Spanish deight",
+      "company": "CoolCreams",
+      "price": 120,
+      "image": "assets/Images/spanish delight.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "2",
+      "name": "Chocolate Ice Cream",
+      "price": 110,
+      "quantity": 1,
+      "image": "assets/Images/download (7).jpg"
+    },
+    {
+      "id": "3",
+      "name": "Strawberry Ice Cream",
+      "price": 45,
+      "quantity": 3,
+      "image": "assets/Images/download (6).jpg"
+    },
+    {
+      "id": "ff74",
+      "name": "Matcha",
+      "description": "CoolCreams",
+      "price": 100,
+      "quantity": 4,
+      "image": "assets/Images/download (8)matchaaaa.jpg"
+    },
+    {
+      "id": "0c96",
+      "name": "Coffe",
+      "description": "CoolCreams",
+      "price": 80,
+      "quantity": 1,
+      "image": "assets/Images/coffe.jpg"
+    },
+    {
+      "id": "82ab",
+      "name": "WaterMelon",
+      "description": "FruitBlast",
+      "price": 70,
+      "quantity": 1,
+      "image": "assets/Images/download (8)watereeeee.jpg"
+    },
+    {
+      "id": "c1c7",
+      "name": "Mango",
+      "description": "FruitBlast",
+      "price": 70,
+      "quantity": 1,
+      "image": "assets/Images/download (7) mangoo.jpg"
+    },
+    {
+      "id": "5624",
+      "name": "Chocolate",
+      "description": "FrostBite",
+      "price": 110,
+      "quantity": 1,
+      "image": "assets/Images/download (7).jpg"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "4",
+      "name": "Mango Magic",
+      "company": "Frozen Treats",
+      "price": 140,
+      "image": "/assets/Images/download (7) mangoo.jpg"
+    },
+    {
+      "id": "2",
+      "flavor": "Chocolate",
+      "company": "FrostBite",
+      "price": 110,
+      "image": "assets/Images/download (7).jpg"
+    },
+    {
+      "id": "7",
+      "flavor": "Blue Berry",
+      "company": "Berry Blast",
+      "price": 70,
+      "image": "assets/Images/blue berry.jpg"
+    },
+    {
+      "id": "16",
+      "flavor": "Jack Fruit",
+      "company": "FruitBlast",
+      "price": 50,
+      "image": "assets/Images/jack fruit.jpg"
+    },
+    {
+      "id": "3",
+      "flavor": "Strawberry",
+      "company": "BerryDelight",
+      "price": 45,
+      "image": "assets/Images/download (6).jpg"
+    },
+    {
+      "id": "1",
+      "flavor": "Vanilla",
+      "company": "CoolCreams",
+      "price": 60,
+      "image": "assets/Images/images (4) vanila.jpg"
+    },
+    {
+      "id": "19",
+      "flavor": "Red Welvet",
+      "company": "CoolCreams",
+      "price": 130,
+      "image": "assets/Images/red velvet.jpg"
+    }
+  ]
+}

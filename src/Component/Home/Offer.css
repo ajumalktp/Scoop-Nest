@@ -1,0 +1,127 @@
+.offer-page {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  position: relative;
+  z-index: 1;
+  background-image: url("assets/Images/240_F_1187937023_IMoyFfHNFaDWbxyaTu0zqcxH88J7k5Acbackkkk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* Overlay */
+.offer-page::before {
+  content: '';
+  position: absolute;
+  inset: 0; /* shorthand for top, right, bottom, left = 0 */
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}
+
+.offer-heading {
+  font-size: 2.5rem;
+  color: #FF0800;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.offer-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.offer-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* ✅ allows wrapping for smaller screens */
+}
+
+.offer-item {
+  flex: 1 1 250px; /* ✅ responsive flex sizing */
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid #e54a7d;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff0f5;
+  box-shadow: 0 4px 8px rgba(229, 74, 125, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.offer-item:hover {
+  transform: translateY(-8px);
+}
+
+.offer-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.offer-item p {
+  font-size: 1rem;
+  color: #b13c61;
+  font-weight: 600;
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .offer-heading {
+    font-size: 2rem;
+  }
+
+  .offer-subtitle {
+    font-size: 1rem;
+  }
+
+  .offer-images {
+    gap: 25px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  .offer-heading {
+    font-size: 1.8rem;
+  }
+
+  .offer-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+
+  .offer-item {
+    flex: 1 1 100%; /* ✅ full width on mobile */
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .offer-item p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+  .offer-heading {
+    font-size: 1.4rem;
+  }
+
+  .offer-subtitle {
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+  }
+
+  .offer-item p {
+    font-size: 0.8rem;
+  }
+}

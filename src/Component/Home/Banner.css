@@ -1,0 +1,144 @@
+.promo-banner {
+  display: flex;
+  height: 100vh;
+  margin-top: 0px;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.promo-left,
+.promo-right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.promo-left {
+  background-color: #fbaecb;
+  color: white;
+}
+
+.promo-tagline {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.promo-title {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.promo-subtext {
+  background-color: #c6356e;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.promo-center {
+  position: relative;
+  z-index: 2;
+}
+
+.promo-center img {
+  height: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+.promo-right {
+  background-color:  #fbaecb;
+  color: #000;
+}
+
+.promo-right h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.promo-right h2 span {
+  color: #e54a7d;
+}
+
+.deal-expired {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.promo-button {
+  padding: 12px 25px;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  color: #e54a7d;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+}
+
+.promo-button:hover {
+  background-color: #fddde4;
+}
+/* ========================= */
+/* 📱 Mobile Responsive */
+/* ========================= */
+@media (max-width: 768px) {
+  .promo-banner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .promo-left,
+  .promo-right {
+    padding: 30px 20px;
+  }
+
+  .promo-title {
+    font-size: 36px;
+  }
+
+  .promo-right h2 {
+    font-size: 28px;
+  }
+
+  .promo-center img {
+    max-width: 300px;
+  }
+}
+
+/* 📱 Extra Small Devices (Phones < 480px) */
+@media (max-width: 480px) {
+  .promo-title {
+    font-size: 28px;
+  }
+
+  .promo-tagline {
+    font-size: 14px;
+  }
+
+  .promo-subtext {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .promo-right h2 {
+    font-size: 22px;
+  }
+
+  .deal-expired {
+    font-size: 14px;
+  }
+
+  .promo-button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
